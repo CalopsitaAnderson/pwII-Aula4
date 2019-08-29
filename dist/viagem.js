@@ -13,7 +13,7 @@ var viagem = /** @class */ (function () {
         return (this.velocidadeMedia * this.tempoGasto); // essas são  os comandos ou funções que foram passadas  no pdf 
     };
     viagem.prototype.consumo = function () {
-        return (this.distancia() / this.rendimentoVeiculo);
+        return (this.distancia() / this.rendimentoVeiculo); // isso é  um metodo
     };
     return viagem;
 }());

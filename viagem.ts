@@ -11,7 +11,7 @@ distancia():number{
     return (this.velocidadeMedia * this.tempoGasto);// essas são  os comandos ou funções que foram passadas  no pdf 
 }
 consumo():number{
-    return(this.distancia() / this.rendimentoVeiculo);
+    return(this.distancia() / this.rendimentoVeiculo);   // isso é  um metodo
 }
 
 }
